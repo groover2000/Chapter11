@@ -9,4 +9,15 @@ partial class Program
         Console.WriteLine("*");
         Console.ForegroundColor = previousColor;
     }
+
+    static void Output(IEnumerable<string> cohort, string description = "")
+    {
+        if (!string.IsNullOrEmpty(description))
+        {
+            Console.WriteLine(description);
+        }
+        Console.Write(" ");
+        Console.WriteLine(string.Join(",", cohort.ToArray()));
+        Console.WriteLine();
+    }
 }
