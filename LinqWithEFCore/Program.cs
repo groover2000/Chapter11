@@ -1,11 +1,18 @@
-﻿FilterAndSort();
+﻿// FilterAndSort();
 
-Console.WriteLine(new string('-', 50));
+// Console.WriteLine(new string('-', 50));
 
-JoinCategoriesAndProducts();
+// JoinCategoriesAndProducts();
 
-Console.WriteLine(new string('-', 50));
-GroupJoinCategoriesAndProducts();
+// Console.WriteLine(new string('-', 50));
+// GroupJoinCategoriesAndProducts();
 
-Console.WriteLine(new string('-', 50));
-AggregateProducts();
+// Console.WriteLine(new string('-', 50));
+// AggregateProducts();
+
+// PagingProducts();
+
+// CustomExtensionsMethods();
+
+// OutputProductsAsXml();
+ProcessSettings();
